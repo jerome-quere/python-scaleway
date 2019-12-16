@@ -29,10 +29,10 @@ The top part of the [CHANGES](CHANGES.rst) should contain a version with an
 ```
 
 You have to replace the `unreleased` statement with the date of the day and
-replace `develop` (at the end of the compare URL) by the current version.
+replace `develop` (at the end of the compare URL) by the new version.
 
 Then you have to make sure the version you want to push is well defined in
-`setup.cfg` and `scaleway.__init__.py`files. If it's not done please update
+`setup.cfg` and `scaleway.api.__init__.py`files. If it's not done please update
 them to your version before committing.
 
 ### 2. The Commit and The Tag
